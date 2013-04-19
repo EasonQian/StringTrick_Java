@@ -12,7 +12,7 @@ public class EqualTrick {
 		 */
 		String a = "a1";
 		String b = "a" + 1;
-		System.out.println(a == b);		// true
+		System.out.println(a == b);	// true
 
 		/*
 		 * JVM对于字符串引用，由于在字符串的"+"连接中，有字符串引用存在，而引用的值在程序编译期是无法确定的
